@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:projekt2_komplex"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="840">
+        Title="MainWindow" Height="550" Width="840">
     <Grid Background="#FF51ECE5">
         <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Stroke="Black" VerticalAlignment="Top" Width="792"/>
         <Rectangle Fill="Black" HorizontalAlignment="Left" Height="2" Margin="0,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="792"/>
@@ -34,10 +34,10 @@
             </Label.RenderTransform>
         </Label>
         <Image x:Name="kapitany" HorizontalAlignment="Left" Height="139" Margin="0,63,0,0" VerticalAlignment="Top" Width="788" Source="bütyök3.png" Stretch="None"/>
-        <Image x:Name="spongya" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="816" Source="komplexkep1.png" Margin="-36,0,0,0"/>
-        <Image x:Name="sosig" HorizontalAlignment="Left" Height="98" Margin="0,202,0,0" VerticalAlignment="Top" Width="798" Source="sosig.png"/>
+        <Image x:Name="spongya" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="788" Source="spongya.png" Margin="0"/>
+        <Image x:Name="sosig" HorizontalAlignment="Left" Height="98" Margin="0,202,0,0" VerticalAlignment="Top" Width="790" Source="sosig.png"/>
         <Button x:Name="startGomb" Content="Start" HorizontalAlignment="Left" Margin="81,321,0,0" VerticalAlignment="Top" Width="75" Click="startGomb_Click_1"/>
-        <Button x:Name="ujFutam" Content="Új futam" HorizontalAlignment="Left" Margin="361,321,0,0" VerticalAlignment="Top" Width="75" Click="ujFutam_Click"/>
+        <Button x:Name="ujFutam" Content="Új futam" HorizontalAlignment="Left" Margin="361,321,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="ujBajnoksag" Content="Új bajnokság" HorizontalAlignment="Left" Margin="633,321,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="A bajnokság állása" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" FontSize="16"/>
 

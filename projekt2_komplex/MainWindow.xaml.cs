@@ -29,7 +29,7 @@ namespace projekt2_komplex
         {
             InitializeComponent();
             idozito = new DispatcherTimer();
-            idozito.Interval = TimeSpan.FromSeconds(0.001);
+            idozito.Interval = TimeSpan.FromSeconds(0.008);
             idozito.Tick += new EventHandler(IdozitoFeladata);
 
             ujFutam.IsEnabled = false;
@@ -37,18 +37,22 @@ namespace projekt2_komplex
 
         private void IdozitoFeladata(object sender, EventArgs e)
         {
-            int spongyaSebesseg = rnd.Next(1 , 3);
-            int kapitanySebesseg = rnd.Next(1, 3);
-            int sosigSebesseg = rnd.Next(1, 3);
-            
-            ++idoSzam;
-            spongya.Margin = new Thickness(idoSzam * 1, 0, 0, 0);
-            kapitany.Margin = new Thickness(idoSzam * 1, 63, 0, 0);
-            sosig.Margin = new Thickness(idoSzam * 1, 202, 0, 0);
+            int spongyaSebesseg = rnd.Next(3, 5);
+            int kapitanySebesseg = rnd.Next(3, 5);
+            int sosigSebesseg = rnd.Next(3, 5);
 
-            if (spongya.Margin.Left >= celVonal.Margin.Left - 120)
+
+
+            spongya.Margin = new Thickness(idoSzam * spongyaSebesseg, 0, 0, 0);
+            kapitany.Margin = new Thickness(idoSzam * kapitanySebesseg, 63, 0, 0);
+            sosig.Margin = new Thickness(idoSzam * sosigSebesseg, 202, 0, 0);
+            ++idoSzam;
+
+
+
+            if (spongya.Margin.Left >= celVonal.Margin.Left - 70)
             {
-                spongya.Margin = new Thickness(celVonal.Margin.Left - 120, spongya.Margin.Top, 0, 0);
+                spongya.Margin = new Thickness(celVonal.Margin.Left - 70, spongya.Margin.Top, 0, 0);
             }
             if (kapitany.Margin.Left >= celVonal.Margin.Left - 90)
             {
@@ -61,9 +65,9 @@ namespace projekt2_komplex
 
         }
 
-        
 
-        
+
+
 
         private void startGomb_Click_1(object sender, RoutedEventArgs e)
         {
@@ -72,11 +76,6 @@ namespace projekt2_komplex
             ujFutam.IsEnabled = false;
         }
 
-        private void ujFutam_Click(object sender, RoutedEventArgs e)
-        {
-            spongya.Margin = new Thickness(idoSzam * 10, 0, 0, 0);
-            kapitany.Margin = new Thickness(idoSzam * 33, 63, 0, 0);
-            sosig.Margin = new Thickness(idoSzam * 54, 202, 0, 0);
-        }
+    
     }
 }
