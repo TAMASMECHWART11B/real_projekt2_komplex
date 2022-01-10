@@ -37,9 +37,21 @@
         <Image x:Name="spongya" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="788" Source="spongya.png" Margin="0"/>
         <Image x:Name="sosig" HorizontalAlignment="Left" Height="98" Margin="0,202,0,0" VerticalAlignment="Top" Width="790" Source="sosig.png"/>
         <Button x:Name="startGomb" Content="Start" HorizontalAlignment="Left" Margin="81,321,0,0" VerticalAlignment="Top" Width="75" Click="startGomb_Click_1"/>
-        <Button x:Name="ujFutam" Content="Új futam" HorizontalAlignment="Left" Margin="361,321,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="ujFutam" Content="Új futam" HorizontalAlignment="Left" Margin="361,321,0,0" VerticalAlignment="Top" Width="75" Click="ujFutam_Click"/>
         <Button x:Name="ujBajnoksag" Content="Új bajnokság" HorizontalAlignment="Left" Margin="633,321,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="A bajnokság állása" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="nev" Content="" HorizontalAlignment="Left" Margin="233,366,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="hely" Content="" HorizontalAlignment="Left" Margin="382,366,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="pont" Content="" HorizontalAlignment="Left" Margin="542,366,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="elso" Content="" HorizontalAlignment="Left" Margin="233,416,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="masodik" Content="" HorizontalAlignment="Left" Margin="233,447,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="harmadik" Content="" HorizontalAlignment="Left" Margin="233,483,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="elsoHely" Content="" HorizontalAlignment="Left" Margin="382,416,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="masodikHely" Content="" HorizontalAlignment="Left" Margin="382,447,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="harmadikHely" Content="" HorizontalAlignment="Left" Margin="382,483,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="elsoPont" Content="" HorizontalAlignment="Left" Margin="542,424,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="masodikPont" Content="" HorizontalAlignment="Left" Margin="542,450,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="harmadikPont" Content="" HorizontalAlignment="Left" Margin="542,483,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

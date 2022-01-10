@@ -63,6 +63,31 @@ namespace projekt2_komplex
                 sosig.Margin = new Thickness(celVonal.Margin.Left - 70, sosig.Margin.Top, 0, 0);
             }
 
+            if ((spongya.Margin.Left >= celVonal.Margin.Left - 70) && (kapitany.Margin.Left >= celVonal.Margin.Left - 90) && (sosig.Margin.Left >= celVonal.Margin.Left - 70))
+            {
+                ujFutam.IsEnabled = true;
+                nev.Content = "Név";
+                hely.Content = "Helyezés";
+                pont.Content = "Pont";
+                if ((spongya.Margin.Left >= celVonal.Margin.Left - 70) && (kapitany.Margin.Left != celVonal.Margin.Left - 90) && (sosig.Margin.Left != celVonal.Margin.Left - 70))
+                {
+                    elso.Content = "Spongyabob";
+                    elsoHely.Content = "1.";
+                    elsoPont.Content = "3p";
+                }
+                else if ((spongya.Margin.Left >= celVonal.Margin.Left - 70) && (kapitany.Margin.Left >= celVonal.Margin.Left - 90) && (sosig.Margin.Left != celVonal.Margin.Left - 70))
+                {
+                    masodik.Content = "Bütyök kapitány";
+                    masodikHely.Content = "2.";
+                    masodikPont.Content = "2p";
+                }
+                else
+                {
+                    harmadik.Content = "Sosig Ramsey";
+                    harmadikHely.Content = "3.";
+                    harmadikPont.Content = "1p";
+                }
+            }
         }
 
 
@@ -76,6 +101,19 @@ namespace projekt2_komplex
             ujFutam.IsEnabled = false;
         }
 
-    
+        private void ujFutam_Click(object sender, RoutedEventArgs e)
+        {
+            if ((spongya.Margin.Left >= celVonal.Margin.Left - 70) && (kapitany.Margin.Left >= celVonal.Margin.Left - 90) && (sosig.Margin.Left >= celVonal.Margin.Left - 70))
+            {
+                idozito.Stop();
+                
+                spongya.Margin = new Thickness(1, 0, 0, 0);
+                kapitany.Margin = new Thickness(1, 63, 0, 0);
+                sosig.Margin = new Thickness(1, 202, 0, 0);
+                
+
+            }
+            startGomb.IsEnabled = true;
+        }
     }
 }
