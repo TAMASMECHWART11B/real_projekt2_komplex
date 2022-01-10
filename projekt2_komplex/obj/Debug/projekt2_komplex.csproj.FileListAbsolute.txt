@@ -1,0 +1,15 @@
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\bin\Debug\projekt2_komplex.exe.config
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\bin\Debug\projekt2_komplex.exe
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\bin\Debug\projekt2_komplex.pdb
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.csprojAssemblyReference.cache
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\MainWindow.g.cs
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\App.g.cs
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex_MarkupCompile.cache
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex_MarkupCompile.lref
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\MainWindow.baml
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.g.resources
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.Properties.Resources.resources
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.csproj.GenerateResource.cache
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.csproj.CoreCompileInputs.cache
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.exe
+C:\Users\tomika\Desktop\projekt_komplex2\projekt2_komplex\obj\Debug\projekt2_komplex.pdb
